@@ -9,11 +9,29 @@ The project uses the Walmart Store Sales Forecasting dataset and combines local 
 
 --- 
 
-## 🏗️ System Architecture
+## System Architecture
 
 <img width="1000" height="500" alt="System Architecture " src="https://github.com/user-attachments/assets/60aead62-6bb8-4193-abba-49c42bc70348" />
 
 ---
+
+## 📑 Documentation
+
+- [Project Overview](#project-overview)
+- [System Architecture](#️-system-architecture)
+- [Dataset](#dataset)
+- [Data Preparation](#data-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering](#time-series-feature-engineering)
+- [Machine Learning Model](#machine-learning-model)
+- [Model Evaluation](#model-evaluation)
+- [Forecast Dashboard](#forecast-dashboard)
+- [FastAPI](#fastapi)
+- [Google Cloud Integration](#google-cloud-integration)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Running the Project Locally](#-running-the-project-locally)
+- [Use Cases](#use-cases)
 
 ## Project Overview
 
@@ -431,7 +449,7 @@ retail-sales-time-series-forecasting/
 ```
 ---
 
-# 💻 Running the Project Locally
+# Running the Project Locally
 
 Follow the steps below to run the project on your local machine.
 
