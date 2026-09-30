@@ -8,6 +8,9 @@ An end-to-end retail sales forecasting system that predicts future weekly sales 
 
 The project uses the Walmart Store Sales Forecasting dataset and combines local machine learning with Google Cloud analytics and model deployment workflows.
 
+**Project Demo** 
+https://drive.google.com/file/d/1_4ApQuQf9rHHgA0YylddochtvTeG4GsF/view?usp=sharing 
+
 --- 
 
 ## System Architecture
