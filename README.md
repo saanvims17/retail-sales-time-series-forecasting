@@ -1,7 +1,4 @@
 # Retail Sales Time Series Forecasting
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,sklearn,fastapi,gcp,js,git,github" height="28"/>
-</p>
 
 An end-to-end retail sales forecasting system that predicts future weekly sales using XGBoost, time-series feature engineering, recursive multi-step forecasting, FastAPI, and Google Cloud services (BigQuery, Cloud Storage, and Vertex AI).
 
