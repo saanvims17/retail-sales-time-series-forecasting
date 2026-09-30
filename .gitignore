@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+vertex_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+
+# Datasets
+data/*.csv
+walmart-store-sales-forecasting/
+
+# Trained model artifacts
+vertex_model/
+*.pkl
+*.bst
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+*.key
+*.pem
+service-account*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+app.py 
