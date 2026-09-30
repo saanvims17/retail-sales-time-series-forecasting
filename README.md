@@ -15,23 +15,6 @@ The project uses the Walmart Store Sales Forecasting dataset and combines local 
 
 ---
 
-## 📑 Documentation
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Data Preparation](#data-preparation)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Feature Engineering](#time-series-feature-engineering)
-- [Machine Learning Model](#machine-learning-model)
-- [Model Evaluation](#model-evaluation)
-- [Forecast Dashboard](#forecast-dashboard)
-- [FastAPI](#fastapi)
-- [Google Cloud Integration](#google-cloud-integration)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Running the Project Locally](#-running-the-project-locally)
-- [Use Cases](#use-cases)
-
 ## Project Overview
 
 Retail businesses need reliable sales forecasts for inventory planning, staffing, promotions, and operational decision-making.
@@ -50,6 +33,32 @@ This project builds a machine-learning-based time-series forecasting pipeline th
 - Uses BigQuery for SQL-based retail analytics
 - Uses Google Cloud Storage for model artifacts
 - Registers and deploys the trained model using Vertex AI
+
+---
+# Forecast Dashboard
+
+Interactive dashboard built with HTML, CSS, JavaScript, and Chart.js.
+
+<img width="1000" height="500" alt="Dashboard" src="https://github.com/user-attachments/assets/bbe17f3b-bb9d-4cf3-8c1a-d47443659493" />
+
+Users can select:
+
+- Store
+- Department
+- Forecast Horizon
+
+The dashboard displays:
+
+- Predicted weekly sales
+- Forecast line chart
+- Average predicted sales
+- Peak predicted sales
+- Weekly prediction table
+- Historical model validation metrics
+
+**Predictions** 
+
+<img width="1000" height="500" alt="prediciton " src="https://github.com/user-attachments/assets/b1e42b1b-ce3d-4b02-ae22-e0f6409481f0" />
 
 ---
 
@@ -242,32 +251,6 @@ The current future forecast cannot be directly evaluated because actual future s
 | sMAPE | 22.44% |
 
 **Note:** These metrics represent historical backtesting performance and do not represent the accuracy of the current future forecast.
-
----
-# Forecast Dashboard
-
-Interactive dashboard built with HTML, CSS, JavaScript, and Chart.js.
-
-<img width="1000" height="500" alt="Dashboard" src="https://github.com/user-attachments/assets/bbe17f3b-bb9d-4cf3-8c1a-d47443659493" />
-
-Users can select:
-
-- Store
-- Department
-- Forecast Horizon
-
-The dashboard displays:
-
-- Predicted weekly sales
-- Forecast line chart
-- Average predicted sales
-- Peak predicted sales
-- Weekly prediction table
-- Historical model validation metrics
-
-**Predictions** 
-
-<img width="1000" height="500" alt="prediciton " src="https://github.com/user-attachments/assets/b1e42b1b-ce3d-4b02-ae22-e0f6409481f0" />
 
 ---
 
