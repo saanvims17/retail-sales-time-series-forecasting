@@ -18,7 +18,6 @@ The project uses the Walmart Store Sales Forecasting dataset and combines local 
 ## 📑 Documentation
 
 - [Project Overview](#project-overview)
-- [System Architecture](#️-system-architecture)
 - [Dataset](#dataset)
 - [Data Preparation](#data-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
